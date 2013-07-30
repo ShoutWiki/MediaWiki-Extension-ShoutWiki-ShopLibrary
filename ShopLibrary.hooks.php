@@ -2,8 +2,8 @@
 
 class ShopLibraryHooks {
 	
-	public function buildSWShopHeader() {
-		wfRunHooks( 'ShoutWikiShopHeaderItems', $links );
+	public function buildSWShopHeader( $links ) {
+		wfRunHooks( 'ShoutWikiShopHeaderItems', array( $links ) );
 		//similar crap from Linker.php line 1164 to format
 		
 		if ( $links ) {

@@ -12,5 +12,6 @@ $messages = array();
  * @author Lcawte
  */
 $messages['en'] = array(
-		'shoplibrary-desc'     => 'Adds a common library for ShoutWiki Shop Extensions.',
+		'shoplibrary-desc'     => 'Adds a common library for ShoutWiki Shop Extensions.
+		',
 );
